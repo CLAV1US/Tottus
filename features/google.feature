@@ -6,10 +6,10 @@ Feature: Buscar sucursal Tottus en Google
     Given Abrir pagina busqueda Google
     When Realizando busqueda de "tottus sucursales" en Google
     Then Presionar "enter" en Google
-    When I should see that the first Google's result is "Tottus Nataniel"
-	When Pagina
+    When Validar se muestre "Tottus Nataniel" presionar sitio web
     Then Presionar en link Recetas y mas
     Then Presionar en nivel alto
+    Then Seleccionar Corona de rollitos de canela
 
 
   Scenario: Directo
