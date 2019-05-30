@@ -6,7 +6,7 @@ Feature: Buscar sucursal Tottus en Google
     Given Abrir pagina busqueda Google
     When Realizando busqueda de "tottus sucursales" en Google
     Then Presionar "enter" en Google
-    When Validar se muestre "Tottus Nataniel" presionar sitio web
+    When Validar resultados seleccionando sitio web de "Tottus Nataniel"
     Then Presionar en link Recetas y mas
     Then Presionar en nivel alto
     Then Seleccionar Corona de rollitos de canela
