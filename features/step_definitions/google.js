@@ -16,7 +16,7 @@ Then('Presionar {string} en Google', async function(text) {
     await testController.pressKey(text);
 });
 
-When('Validar resultados seleccionando {string}', async function(text) {
+When('Validar resultados seleccionando sitio web de {string}', async function(text) {
     var firstLink = Selector('#rso').find('div.BSaJxc').withText('').with({boundTestRun: testController});
     await this.addScreenshotToReport();
     await testController.click(firstLink);
