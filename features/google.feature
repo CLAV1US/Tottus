@@ -2,7 +2,7 @@ Feature: Buscar sucursal Tottus en Google
 
   Necesito buscar una sucrusal de Tottus especifica en Google
 
-  Scenario: Buscando sucursal Tottus en Google
+  Scenario: Buscando sucursal Tottus en Google!!!
     Given Abrir pagina busqueda Google
     When Realizando busqueda de "tottus sucursales" en Google
     Then Presionar "enter" en Google
